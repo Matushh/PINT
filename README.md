@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -14,6 +14,8 @@
     }
     canvas {
       display: block;
+      width: 100%;
+      height: 100%;
     }
     #hiddenMessage {
       position: absolute;
@@ -63,15 +65,13 @@
 </head>
 <body>
   <canvas id="fireCanvas"></canvas>
-<div id="hiddenMessage">PLEASE HIRE ME</div>
-<div id="centerText">WELCOME</div>
-<div id="controlPanel">
-  <label for="wordInput">Enter Words (comma-separated):</label>
-  <input type="text" id="wordInput" value="PINTS?,BEER,PUB?">
-  <label for="centerTextInput" style="margin-top: 10px;">Center Top Text:</label>
-  <input type="text" id="centerTextInput" value="WELCOME">
-</div>
-
+  <div id="hiddenMessage">PLEASE HIRE ME</div>
+  <div id="centerText">WELCOME</div>
+  <div id="controlPanel">
+    <label for="wordInput">Enter Words (comma-separated):</label>
+    <input type="text" id="wordInput" value="PINTS?,BEER,PUB?">
+    <label for="centerTextInput" style="margin-top: 10px;">Center Top Text:</label>
+    <input type="text" id="centerTextInput" value="WELCOME">
   </div>
 
   <script>
@@ -230,4 +230,3 @@
   </script>
 </body>
 </html>
-
