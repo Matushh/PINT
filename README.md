@@ -64,14 +64,16 @@
   </style>
 </head>
 <body>
-  <canvas id="fireCanvas"></canvas>
-  <div id="hiddenMessage">PLEASE HIRE ME</div>
-  <div id="centerText">WELCOME</div>
-  <div id="controlPanel">
-    <label for="wordInput">Enter Words (comma-separated):</label>
-    <input type="text" id="wordInput" value="PINTS?,BEER,PUB?">
-    <label for="centerTextInput" style="margin-top: 10px;">Center Top Text:</label>
-    <input type="text" id="centerTextInput" value="WELCOME">
+<canvas id="fireCanvas"></canvas>
+<div id="hiddenMessage">PLEASE HIRE ME</div>
+<div id="centerText">WELCOME</div>
+<div id="controlPanel">
+  <label for="wordInput">Enter Words (comma-separated):</label>
+  <input type="text" id="wordInput" value="PINTS?,BEER,PUB?">
+  <label for="centerTextInput" style="margin-top: 10px;">Center Top Text:</label>
+  <input type="text" id="centerTextInput" value="WELCOME">
+</div>
+
   </div>
 
   <script>
