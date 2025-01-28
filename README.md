@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -49,7 +49,8 @@
     #centerText {
       position: absolute;
       top: 5%;
-      width: 100%;
+      left: 50%;
+      transform: translateX(-50%);
       text-align: center;
       font-size: 96px;
       font-weight: bold;
@@ -85,6 +86,7 @@
     function resizeCanvas() {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
+      centerTextDiv.style.top = `${window.innerHeight * 0.05}px`;
     }
 
     resizeCanvas();
@@ -226,5 +228,4 @@
   </script>
 </body>
 </html>
-# PINT
-i want pints
+
